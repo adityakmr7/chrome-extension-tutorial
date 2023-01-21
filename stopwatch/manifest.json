@@ -1,0 +1,24 @@
+{
+    "manifest_version":3,
+    "name":"Stopwatch",
+    "version":"1.0.0",
+    "description":"This extension work as a stopwatch",
+    "icons":{
+        "16":"icon.png",
+        "48":"icon.png",
+        "128":"icon.png"
+    },
+    "action":{
+        "default_icon":{
+            "16":"icon.png",
+            "48":"icon.png",
+            "128":"icon.png" 
+        },
+        "default_title":"Stopwatch extension",
+        "default_popup":"popup.html"
+    },
+    "options_page":"options.html",
+    "background":{
+        "service_worker" :"background.js"
+    }
+}
