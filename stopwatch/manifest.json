@@ -12,11 +12,14 @@
         "default_icon":{
             "16":"icon.png",
             "48":"icon.png",
-            "128":"icon.png" 
+            "128":"icon.png"
         },
         "default_title":"Stopwatch extension",
         "default_popup":"popup.html"
     },
+    "permissions": [
+        "storage"
+    ],
     "options_page":"options.html",
     "background":{
         "service_worker" :"background.js"
